@@ -173,7 +173,14 @@
 
           // List of HTTP status codes that are considered "valid"
           // Empty array means default handling
-          "statusCodes": [],
+          "statusCodes": [
+          {
+              // Status Code
+              "code": "200",
+              // Unique handle id
+              "handleId": "setup-webhoook-right-1763579559028-1763932678233"
+            }
+          ],
 
           // Multiple attribute mappings from the API response
           // Each entry maps a response data path -&gt; attribute name
@@ -232,7 +239,12 @@
           <span class="token punctuation">}</span><span class="token punctuation">,</span>
           <span class="token string">"attribute"</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
           <span class="token string">"responseKey"</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
-          <span class="token string">"statusCodes"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+          <span class="token string">"statusCodes"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+              <span class="token string">"code"</span><span class="token punctuation">:</span> <span class="token string">"200"</span><span class="token punctuation">,</span>
+              <span class="token string">"handleId"</span><span class="token punctuation">:</span> <span class="token string">"setup-webhoook-right-1763579559028-1763932678233"</span>
+            <span class="token punctuation">}</span>
+          <span class="token punctuation">]</span><span class="token punctuation">,</span>
           <span class="token string">"capturingAttributes"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
             <span class="token punctuation">{</span>
               <span class="token string">"attribute"</span><span class="token punctuation">:</span> <span class="token string">"Name"</span><span class="token punctuation">,</span>
