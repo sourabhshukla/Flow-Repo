@@ -50,9 +50,6 @@ The same structure is used for:</p>
           // Allowed values: "IMAGE" | "AUDIO" | "VIDEO" | "FILE"
           "fileType": "IMAGE",
 
-          // Original file name (used for display / download)
-          "fileName": "Rectangle 40737.jpg",
-
           // Optional buttons rendered below the media + caption
           // Button rules:
           // - 0 buttons allowed
@@ -66,12 +63,6 @@ The same structure is used for:</p>
               "id": 1763566654196
             }
           ],
-
-          // Where this media was picked from (e.g., "Media Library", "Upload")
-          "source": "Media Library",
-
-          // File size in bytes (stringified)
-          "fileSize": "1531528",
 
           // When true, use `time` to auto-continue after a timeout
           "timeoutToggle": true,
@@ -110,15 +101,12 @@ The same structure is used for:</p>
           <span class="token string">"url"</span><span class="token punctuation">:</span> <span class="token string">"https://d3jt6ku4g6z5l8.cloudfront.net/AUDIO/633829cd86fc494a463d86e8/7752888_poonawala.mp3"</span><span class="token punctuation">,</span>
           <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"caption"</span><span class="token punctuation">,</span>
           <span class="token string">"fileType"</span><span class="token punctuation">:</span> <span class="token string">"AUDIO"</span><span class="token punctuation">,</span>
-          <span class="token string">"fileName"</span><span class="token punctuation">:</span> <span class="token string">"poonawala.mp3"</span><span class="token punctuation">,</span>
           <span class="token string">"buttons"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
             <span class="token punctuation">{</span>
               <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"button 1"</span><span class="token punctuation">,</span>
               <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token number">1763566654196</span>
             <span class="token punctuation">}</span>
           <span class="token punctuation">]</span><span class="token punctuation">,</span>
-          <span class="token string">"source"</span><span class="token punctuation">:</span> <span class="token string">"Media Library"</span><span class="token punctuation">,</span>
-          <span class="token string">"fileSize"</span><span class="token punctuation">:</span> <span class="token string">"227020"</span><span class="token punctuation">,</span>
           <span class="token string">"timeoutToggle"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
           <span class="token string">"delay"</span><span class="token punctuation">:</span> <span class="token string">"12"</span><span class="token punctuation">,</span>
           <span class="token string">"time"</span><span class="token punctuation">:</span> <span class="token string">"23"</span>
@@ -147,15 +135,12 @@ The same structure is used for:</p>
           <span class="token string">"url"</span><span class="token punctuation">:</span> <span class="token string">"https://d3jt6ku4g6z5l8.cloudfront.net/IMAGE/633829cd86fc494a463d86e8/4762179_Rectangle 40737.jpg"</span><span class="token punctuation">,</span>
           <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"caption"</span><span class="token punctuation">,</span>
           <span class="token string">"fileType"</span><span class="token punctuation">:</span> <span class="token string">"IMAGE"</span><span class="token punctuation">,</span>
-          <span class="token string">"fileName"</span><span class="token punctuation">:</span> <span class="token string">"Rectangle 40737.jpg"</span><span class="token punctuation">,</span>
           <span class="token string">"buttons"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
             <span class="token punctuation">{</span>
               <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"button 1"</span><span class="token punctuation">,</span>
               <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token number">1763566654196</span>
             <span class="token punctuation">}</span>
           <span class="token punctuation">]</span><span class="token punctuation">,</span>
-          <span class="token string">"source"</span><span class="token punctuation">:</span> <span class="token string">"Media Library"</span><span class="token punctuation">,</span>
-          <span class="token string">"fileSize"</span><span class="token punctuation">:</span> <span class="token string">"1531528"</span><span class="token punctuation">,</span>
           <span class="token string">"timeoutToggle"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
           <span class="token string">"delay"</span><span class="token punctuation">:</span> <span class="token string">"12"</span><span class="token punctuation">,</span>
           <span class="token string">"time"</span><span class="token punctuation">:</span> <span class="token string">"23"</span>
@@ -184,15 +169,12 @@ The same structure is used for:</p>
           <span class="token string">"url"</span><span class="token punctuation">:</span> <span class="token string">"https://d3jt6ku4g6z5l8.cloudfront.net/VIDEO/633829cd86fc494a463d86e8/1733790_WhatsApp%20Video%2020230530%20at%201.07.12%20PM.mp4"</span><span class="token punctuation">,</span>
           <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"caption"</span><span class="token punctuation">,</span>
           <span class="token string">"fileType"</span><span class="token punctuation">:</span> <span class="token string">"VIDEO"</span><span class="token punctuation">,</span>
-          <span class="token string">"fileName"</span><span class="token punctuation">:</span> <span class="token string">"WhatsApp Video 2023-05-30 at 1.07.12 PM.mp4"</span><span class="token punctuation">,</span>
           <span class="token string">"buttons"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
             <span class="token punctuation">{</span>
               <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"button 1"</span><span class="token punctuation">,</span>
               <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token number">1763566654196</span>
             <span class="token punctuation">}</span>
           <span class="token punctuation">]</span><span class="token punctuation">,</span>
-          <span class="token string">"source"</span><span class="token punctuation">:</span> <span class="token string">"Media Library"</span><span class="token punctuation">,</span>
-          <span class="token string">"fileSize"</span><span class="token punctuation">:</span> <span class="token string">"574433"</span><span class="token punctuation">,</span>
           <span class="token string">"timeoutToggle"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
           <span class="token string">"delay"</span><span class="token punctuation">:</span> <span class="token string">"12"</span><span class="token punctuation">,</span>
           <span class="token string">"time"</span><span class="token punctuation">:</span> <span class="token string">"23"</span>
@@ -221,15 +203,12 @@ The same structure is used for:</p>
           <span class="token string">"url"</span><span class="token punctuation">:</span> <span class="token string">"https://d3jt6ku4g6z5l8.cloudfront.net/FILE/633829cd86fc494a463d86e8/2273386_WhatsApp%20New%20ConversationalBased%20Pricing.pdf"</span><span class="token punctuation">,</span>
           <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"caption"</span><span class="token punctuation">,</span>
           <span class="token string">"fileType"</span><span class="token punctuation">:</span> <span class="token string">"FILE"</span><span class="token punctuation">,</span>
-          <span class="token string">"fileName"</span><span class="token punctuation">:</span> <span class="token string">"WhatsApp New Conversational-Based Pricing.pdf"</span><span class="token punctuation">,</span>
           <span class="token string">"buttons"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
             <span class="token punctuation">{</span>
               <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"button 1"</span><span class="token punctuation">,</span>
               <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token number">1763566654196</span>
             <span class="token punctuation">}</span>
           <span class="token punctuation">]</span><span class="token punctuation">,</span>
-          <span class="token string">"source"</span><span class="token punctuation">:</span> <span class="token string">"Media Library"</span><span class="token punctuation">,</span>
-          <span class="token string">"fileSize"</span><span class="token punctuation">:</span> <span class="token string">"330858"</span><span class="token punctuation">,</span>
           <span class="token string">"timeoutToggle"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
           <span class="token string">"delay"</span><span class="token punctuation">:</span> <span class="token string">"12"</span><span class="token punctuation">,</span>
           <span class="token string">"time"</span><span class="token punctuation">:</span> <span class="token string">"23"</span>
