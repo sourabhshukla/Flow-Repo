@@ -42,56 +42,10 @@
           "tags": [
             {
               // Internal DB ID of the tag
-              "_id": "635ce7278c62b361bf05f179",
-
-              // Messages that can act as first-message triggers (currently empty)
-              "firstMessages": [],
-
-              // Tag name used in UI and logic
-              "tagName": "zoom_booked",
-
-              // Display colors for UI (main + light variant)
-              "displayColor": {
-                "main": "#0b908b",
-                "light": "#bceceb"
-              },
-
-              // Category/group this tag belongs to
-              "category": "zoom",
-
-              // Whether this tag is treated as a “first message” event
-              "isFirstMessage": false,
-
-              // Whether this tag is a journey event (used in analytics/timelines)
-              "isJourneyEvent": true,
-
-              // Assistant / bot this tag belongs to
-              "assistantId": "633829cd86fc494a463d86e8",
-
-              // Client / account this tag belongs to
-              "clientId": "63029c7285871851a4932f58",
-
-              // Audit fields
-              "createdAt": "2022-10-29T08:41:11.891Z",
-              "updatedAt": "2022-10-29T08:41:11.891Z",
-              "__v": 0
+              "_id": "635ce7278c62b361bf05f179"
             },
             {
-              "_id": "6363bf2c7f43ed2765910ba6",
-              "firstMessages": [],
-              "tagName": "request callback demo",
-              "displayColor": {
-                "main": "#0e9e06",
-                "light": "#cdeccb"
-              },
-              "category": "callback demo link",
-              "isFirstMessage": false,
-              "isJourneyEvent": true,
-              "assistantId": "633829cd86fc494a463d86e8",
-              "clientId": "63029c7285871851a4932f58",
-              "createdAt": "2022-11-03T13:16:28.079Z",
-              "updatedAt": "2022-11-03T13:16:28.079Z",
-              "__v": 0
+              "_id": "6363bf2c7f43ed2765910ba6"
             }
           ]
         }
@@ -121,38 +75,10 @@
         <span class="token string">"data"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
           <span class="token string">"tags"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
             <span class="token punctuation">{</span>
-              <span class="token string">"_id"</span><span class="token punctuation">:</span> <span class="token string">"635ce7278c62b361bf05f179"</span><span class="token punctuation">,</span>
-              <span class="token string">"firstMessages"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-              <span class="token string">"tagName"</span><span class="token punctuation">:</span> <span class="token string">"zoom_booked"</span><span class="token punctuation">,</span>
-              <span class="token string">"displayColor"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                <span class="token string">"main"</span><span class="token punctuation">:</span> <span class="token string">"#0b908b"</span><span class="token punctuation">,</span>
-                <span class="token string">"light"</span><span class="token punctuation">:</span> <span class="token string">"#bceceb"</span>
-              <span class="token punctuation">}</span><span class="token punctuation">,</span>
-              <span class="token string">"category"</span><span class="token punctuation">:</span> <span class="token string">"zoom"</span><span class="token punctuation">,</span>
-              <span class="token string">"isFirstMessage"</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
-              <span class="token string">"isJourneyEvent"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-              <span class="token string">"assistantId"</span><span class="token punctuation">:</span> <span class="token string">"633829cd86fc494a463d86e8"</span><span class="token punctuation">,</span>
-              <span class="token string">"clientId"</span><span class="token punctuation">:</span> <span class="token string">"63029c7285871851a4932f58"</span><span class="token punctuation">,</span>
-              <span class="token string">"createdAt"</span><span class="token punctuation">:</span> <span class="token string">"2022-10-29T08:41:11.891Z"</span><span class="token punctuation">,</span>
-              <span class="token string">"updatedAt"</span><span class="token punctuation">:</span> <span class="token string">"2022-10-29T08:41:11.891Z"</span><span class="token punctuation">,</span>
-              <span class="token string">"__v"</span><span class="token punctuation">:</span> <span class="token number">0</span>
+              <span class="token string">"_id"</span><span class="token punctuation">:</span> <span class="token string">"635ce7278c62b361bf05f179"</span>
             <span class="token punctuation">}</span><span class="token punctuation">,</span>
             <span class="token punctuation">{</span>
               <span class="token string">"_id"</span><span class="token punctuation">:</span> <span class="token string">"6363bf2c7f43ed2765910ba6"</span><span class="token punctuation">,</span>
-              <span class="token string">"firstMessages"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-              <span class="token string">"tagName"</span><span class="token punctuation">:</span> <span class="token string">"request callback demo"</span><span class="token punctuation">,</span>
-              <span class="token string">"displayColor"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                <span class="token string">"main"</span><span class="token punctuation">:</span> <span class="token string">"#0e9e06"</span><span class="token punctuation">,</span>
-                <span class="token string">"light"</span><span class="token punctuation">:</span> <span class="token string">"#cdeccb"</span>
-              <span class="token punctuation">}</span><span class="token punctuation">,</span>
-              <span class="token string">"category"</span><span class="token punctuation">:</span> <span class="token string">"callback demo link"</span><span class="token punctuation">,</span>
-              <span class="token string">"isFirstMessage"</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
-              <span class="token string">"isJourneyEvent"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-              <span class="token string">"assistantId"</span><span class="token punctuation">:</span> <span class="token string">"633829cd86fc494a463d86e8"</span><span class="token punctuation">,</span>
-              <span class="token string">"clientId"</span><span class="token punctuation">:</span> <span class="token string">"63029c7285871851a4932f58"</span><span class="token punctuation">,</span>
-              <span class="token string">"createdAt"</span><span class="token punctuation">:</span> <span class="token string">"2022-11-03T13:16:28.079Z"</span><span class="token punctuation">,</span>
-              <span class="token string">"updatedAt"</span><span class="token punctuation">:</span> <span class="token string">"2022-11-03T13:16:28.079Z"</span><span class="token punctuation">,</span>
-              <span class="token string">"__v"</span><span class="token punctuation">:</span> <span class="token number">0</span>
             <span class="token punctuation">}</span>
           <span class="token punctuation">]</span>
         <span class="token punctuation">}</span>
