@@ -197,7 +197,7 @@
             <span class="token string">"max"</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
             <span class="token string">"regex"</span><span class="token punctuation">:</span> <span class="token string">""</span>
           <span class="token punctuation">}</span><span class="token punctuation">,</span>
-          <span class="token string">"attributeFormatValidationErrorMessage"</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token string">"attributeFormatValidationErrorMessage"</span><span class="token punctuation">:</span> <span class="token string">"Invalid format"</span><span class="token punctuation">,</span>
           <span class="token string">"attributeFormat"</span><span class="token punctuation">:</span> <span class="token string">"Any"</span><span class="token punctuation">,</span>
           <span class="token string">"mediaType"</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
           <span class="token string">"timeoutToggle"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
