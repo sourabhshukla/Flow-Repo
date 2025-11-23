@@ -49,9 +49,12 @@
           "formattedButtons": [
             {
               "type": "BUTTON",
-              "sub_type": "URL",
-              "index": 0,
-              "parameters": [
+       
+         "sub_type": "URL",
+          
+         "index": 0,
+               "parameters": [
+               // Parameter in URL
                 {
                   "type": "text",
                   "text": "12345"
