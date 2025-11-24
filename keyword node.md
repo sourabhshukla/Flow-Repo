@@ -39,10 +39,10 @@
     // this node can be treated as the starting point.
     "templates": [
       {
-        "_id": "65903279d094513802a87230",
+        "id": "65903279d094513802a87230",
       },
       {
-         "_id": "6477047c8aac7f7df929e73e",
+         "id": "6477047c8aac7f7df929e73e",
        }
     ],
 
