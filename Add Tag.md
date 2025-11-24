@@ -41,11 +41,11 @@
           // Typically these are pre-configured tags from your system.
           "tags": [
             {
-              // Internal DB ID of the tag
-              "_id": "635ce7278c62b361bf05f179"
+              // Name of tag
+              "tagName": "My tag 1"
             },
             {
-              "_id": "6363bf2c7f43ed2765910ba6"
+              "tagName": "My tag 2"
             }
           ]
         }
@@ -75,10 +75,10 @@
         <span class="token string">"data"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
           <span class="token string">"tags"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
             <span class="token punctuation">{</span>
-              <span class="token string">"_id"</span><span class="token punctuation">:</span> <span class="token string">"635ce7278c62b361bf05f179"</span>
+              <span class="token string">"tagName"</span><span class="token punctuation">:</span> <span class="token string">"My tag 1"</span>
             <span class="token punctuation">}</span><span class="token punctuation">,</span>
             <span class="token punctuation">{</span>
-              <span class="token string">"_id"</span><span class="token punctuation">:</span> <span class="token string">"6363bf2c7f43ed2765910ba6"</span><span class="token punctuation">,</span>
+              <span class="token string">"tagName"</span><span class="token punctuation">:</span> <span class="token string">"My tag 2"</span>
             <span class="token punctuation">}</span>
           <span class="token punctuation">]</span>
         <span class="token punctuation">}</span>
