@@ -10,6 +10,7 @@
 <li><code>id</code> → internal DB id of the template (<code>_id</code> from your template collection)</li>
 <li><code>templateParams</code> → array of parameter values in order of <code>{{1}}</code>, <code>{{2}}</code>, …</li>
 <li><code>formattedButtons</code> → runtime button configuration (e.g. for dynamic URLs / parameters)</li>
+<li>Currently only <code>text/image/video/document</code> templates are supported.</li>
 </ul>
 <hr>
 <h2 id="full-sample">1. Full Sample</h2>
