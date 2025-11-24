@@ -45,9 +45,6 @@
          "_id": "6477047c8aac7f7df929e73e",
        }
     ],
-    
-    // Linked ad configuration (if this keyword node is bound to an ad entry)
-    "ad": null,
 
     // When true, regex matching is case-sensitive
     "regexCaseSensitive": true,
@@ -93,7 +90,6 @@
          <span class="token string">"id"</span><span class="token punctuation">:</span><span class="token string">"&lt;templateMongoId&gt;"</span>
       <span class="token punctuation">}</span>
     <span class="token punctuation">]</span><span class="token punctuation">,</span>
-    <span class="token string">"ad"</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
     <span class="token string">"regexCaseSensitive"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
     <span class="token string">"isNewFlow"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
     <span class="token string">"regex"</span><span class="token punctuation">:</span> <span class="token string">"*a"</span>
