@@ -48,13 +48,11 @@
           // Button runtime config (dynamic values, URLs, etc.)
           "formattedButtons": [
             {
-              "type": "BUTTON",
-       
-         "sub_type": "URL",
-          
-         "index": 0,
+               "type": "BUTTON",
+               "sub_type": "URL",
+               "index": 0,
                "parameters": [
-               // Parameter in URL
+                // Parameter in URL
                 {
                   "type": "text",
                   "text": "12345"
@@ -112,46 +110,7 @@
   }
 }
 </code></pre>
-<h3 id="authentication-template">1. Authentication Template</h3>
-<pre class=" language-json"><code class="prism  language-json"><span class="token punctuation">{</span>
-  <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763634895184"</span><span class="token punctuation">,</span>
-  <span class="token string">"type"</span><span class="token punctuation">:</span> <span class="token string">"masterComponent"</span><span class="token punctuation">,</span>
-  <span class="token string">"data"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-    <span class="token string">"isDrag"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-    <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763634895184"</span><span class="token punctuation">,</span>
-    <span class="token string">"content"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
-      <span class="token punctuation">{</span>
-        <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763634895184-templateMessage"</span><span class="token punctuation">,</span>
-        <span class="token string">"type"</span><span class="token punctuation">:</span> <span class="token string">"templateMessage"</span><span class="token punctuation">,</span>
-        <span class="token string">"data"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-          <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"6904779fdfeeb70d508d1fe7"</span><span class="token punctuation">,</span>
-          <span class="token string">"templateParams"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
-            <span class="token string">"&lt;AUTH_CODE&gt;"</span>
-          <span class="token punctuation">]</span><span class="token punctuation">,</span>
-          <span class="token string">"formattedButtons"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
-            <span class="token punctuation">{</span>
-              <span class="token string">"type"</span><span class="token punctuation">:</span> <span class="token string">"BUTTON"</span><span class="token punctuation">,</span>
-              <span class="token string">"sub_type"</span><span class="token punctuation">:</span> <span class="token string">"URL"</span><span class="token punctuation">,</span>
-              <span class="token string">"index"</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-              <span class="token string">"parameters"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
-                <span class="token punctuation">{</span>
-                  <span class="token string">"type"</span><span class="token punctuation">:</span> <span class="token string">"text"</span><span class="token punctuation">,</span>
-                  <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"&lt;AUTH_CODE&gt;"</span> <span class="token comment">// same auth code as above</span>
-                <span class="token punctuation">}</span>
-              <span class="token punctuation">]</span>
-            <span class="token punctuation">}</span>
-          <span class="token punctuation">]</span>
-        <span class="token punctuation">}</span>
-      <span class="token punctuation">}</span>
-    <span class="token punctuation">]</span>
-  <span class="token punctuation">}</span><span class="token punctuation">,</span>
-  <span class="token string">"position"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-    <span class="token string">"x"</span><span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">170</span><span class="token punctuation">,</span>
-    <span class="token string">"y"</span><span class="token punctuation">:</span> <span class="token number">11</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre>
-<h3 id="text-template">2. Text Template</h3>
+<h3 id="text-template">1. Text Template</h3>
 <p>Here the template has 2 body parameters and one button of type url and the button also has one parameter. In case there is no parameter in the button we don’t need to add the button in <code>formattedButtons</code> here.</p>
 <pre class=" language-json"><code class="prism  language-json"><span class="token punctuation">{</span>
   <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763634895184"</span><span class="token punctuation">,</span>
@@ -191,7 +150,7 @@
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre>
-<h3 id="imagevideodocument-template">3. Image/Video/Document Template</h3>
+<h3 id="imagevideodocument-template">2. Image/Video/Document Template</h3>
 <p>In case of these templates one more attribute <code>url</code> will be added.</p>
 <pre class=" language-json"><code class="prism  language-json"><span class="token punctuation">{</span>
   <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763634895184"</span><span class="token punctuation">,</span>
@@ -232,7 +191,7 @@
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre>
-<h3 id="in-case-of-copy-code-button">4. In case of COPY CODE Button</h3>
+<h3 id="in-case-of-copy-code-button">3. In case of COPY CODE Button</h3>
 <pre class=" language-json"><code class="prism  language-json"><span class="token punctuation">{</span>
   <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763634895184"</span><span class="token punctuation">,</span>
   <span class="token string">"type"</span><span class="token punctuation">:</span> <span class="token string">"masterComponent"</span><span class="token punctuation">,</span>
