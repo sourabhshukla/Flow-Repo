@@ -54,7 +54,7 @@
 
     // Optional regex pattern for matching messages
     // If provided, engine can use this along with or instead of simple keywords.
-    "regex": "/^\d+$/"
+    "regex": "/^\\d+$/"
   },
 
   // Position on the canvas (relative)
@@ -92,7 +92,7 @@
     <span class="token punctuation">]</span><span class="token punctuation">,</span>
     <span class="token string">"regexCaseSensitive"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
     <span class="token string">"isNewFlow"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-    <span class="token string">"regex"</span><span class="token punctuation">:</span> <span class="token string">"*a"</span>
+    <span class="token string">"regex"</span><span class="token punctuation">:</span> <span class="token string">"/^\\d+$/"</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
   <span class="token string">"position"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
     <span class="token string">"x"</span><span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">1262.4900259419146</span><span class="token punctuation">,</span>
