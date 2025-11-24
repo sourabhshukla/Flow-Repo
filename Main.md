@@ -17,16 +17,16 @@
 <h2 id="curl-request">1. cURL Request</h2>
 <pre class=" language-bash"><code class="prism  language-bash">curl --location <span class="token string">'&lt;BASE_URL&gt;/client/t1/project-apis/v2/project/flow/create'</span> \
 --header <span class="token string">'Content-Type: application/json'</span> \
+--header <span class="token string">'X-AiSensy-Project-API-Pwd: &lt;AUTH_TOKEN&gt;'</span> \
 --data <span class="token string">'{
-  "projectId": "68ac67dc9a630835f9ac7601",
-  "flowName": "Dummy Flow"
+  "flowName": "New Flow"
 }'</span>
 </code></pre>
 <h2 id="curl-request-update">2. cURL Request (update)</h2>
 <pre class=" language-bash"><code class="prism  language-bash">curl --location <span class="token string">'&lt;BASE_URL&gt;/client/t1/project-apis/v2/project/68ac67dc9a630835f9ac7601/flow/update'</span> \
 --header <span class="token string">'Content-Type: application/json'</span> \
+--header <span class="token string">'X-AiSensy-Project-API-Pwd: &lt;AUTH_TOKEN&gt;'</span> \
 --data <span class="token string">'{
-  "projectId": "68ac67dc9a630835f9ac7601",
   "flowId": "68ff9d6da67048001e402b3b",
   "flow": {
     "nodes": [
