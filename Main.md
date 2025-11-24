@@ -41,11 +41,10 @@
             "hello"
           ],
           "templates": [],
-          "qrCampaigns": [],
           "ad": null,
           "regexCaseSensitive": true,
           "isNewFlow": true,
-          "regex": "*a"
+          "regex": "/^\d+$/"
         },
         "position": {
           "x": -1262.4900259419146,
