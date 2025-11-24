@@ -39,93 +39,13 @@
     // this node can be treated as the starting point.
     "templates": [
       {
-        "status": "APPROVED",
-        "processed": "2023-12-30T15:08:41.854Z",
-        "callToAction": [],
-        "quickReplies": [
-          "Continue Chat"
-        ],
-        "templateParams": [],
         "_id": "65903279d094513802a87230",
-        "label": "welcome_new",
-        "category": "UTILITY",
-        "type": "TEXT",
-        "name": "welcome_new",
-
-        // Full template format string (with inline buttons specified)
-        "format": "Hi there, 👋\n\nWelcome to AiSensy.\n\nClick the button below to continue the Chat 👇 | [Continue Chat]",
-
-        // Example message preview without the button metadata
-        "sampleMessage": "Hi there, 👋\n\nWelcome to AiSensy.\n\nClick the button below to continue the Chat 👇",
-
-        // How user interacts with this template ("QuickReplies", "CallToAction", etc.)
-        "actionType": "QuickReplies",
-
-        "sampleMediaUrl": "",
-        "sampleCTAUrl": "",
-        "isClickTrackingEnabled": false,
-
-        // Optional header text for the template
-        "headerText": "AiSensy",
-
-        "buttons": [],
-        "parameters": 0,
-        "namespace": "34a3dddc_9ebd_4556_80a8_418ed6be917c",
-        "templateId": "1046615053216990",
-        "templateLanguage": "English",
-        "assistantId": "633829cd86fc494a463d86e8",
-        "clientId": "63029c7285871851a4932f58",
-        "assistantName": "customer_support",
-        "partnerId": null,
-        "carouselCards": [],
-        "createdAt": "2023-12-30T15:08:41.860Z",
-        "updatedAt": "2025-10-30T12:59:43.938Z",
-        "__v": 0,
-        "quality": "UNKNOWN",
-        "rejectedReason": "NONE"
       },
       {
-        "status": "APPROVED",
-        "processed": "2023-05-31T08:25:32.292Z",
-        "callToAction": [],
-        "quickReplies": [
-          "Thank You",
-          "Have a nice day"
-        ],
-        "templateParams": [],
-        "_id": "6477047c8aac7f7df929e73e",
-        "label": "test_hs_5",
-        "category": "MARKETING",
-        "type": "VIDEO",
-        "name": "test_hs_5",
-        "format": "*Get Exclusive Access to Exciting Offers*\n\nWith Flipkart Axis Bank Credit Card\n\n*Get 5% Unlimited Cashbacks* on\n\n--Latest Mobile phones\n--Trending Styles\n--BRAND New Home &amp; kitchen Appliances\n\nClick here to apply : https://www.flipkart.com/\n\nClick here to start Shopping: https://www.flipkart.com/ | [Thank You] | [Have a nice day]",
-        "sampleMessage": "*Get Exclusive Access to Exciting Offers*\n\nWith Flipkart Axis Bank Credit Card\n\n*Get 5% Unlimited Cashbacks* on\n\n--Latest Mobile phones\n--Trending Styles\n--BRAND New Home &amp; kitchen Appliances\n\nClick here to apply : https://www.flipkart.com/\n\nClick here to start Shopping: https://www.flipkart.com/",
-        "actionType": "QuickReplies",
-        "sampleMediaUrl": "4::dmlkZW8vbXA0:ARbt6U... (truncated)",
-        "sampleCTAUrl": "",
-        "isClickTrackingEnabled": false,
-        "footerText": "Reply *STOP* to Unsubscribe",
-        "parameters": 0,
-        "namespace": "34a3dddc_9ebd_4556_80a8_418ed6be917c",
-        "templateId": "790325912453662",
-        "templateLanguage": "English (UK)",
-        "assistantId": "633829cd86fc494a463d86e8",
-        "clientId": "63029c7285871851a4932f58",
-        "assistantName": "customer_support",
-        "partnerId": null,
-        "createdAt": "2023-05-31T08:25:32.300Z",
-        "updatedAt": "2025-10-30T12:59:43.938Z",
-        "__v": 0,
-        "rejectedReason": "NONE",
-        "quality": "UNKNOWN",
-        "buttons": [],
-        "carouselCards": []
-      }
+         "_id": "6477047c8aac7f7df929e73e",
+       }
     ],
-
-    // QR-based campaigns that can map to this flow entry point
-    "qrCampaigns": [],
-
+    
     // Linked ad configuration (if this keyword node is bound to an ad entry)
     "ad": null,
 
@@ -137,7 +57,7 @@
 
     // Optional regex pattern for matching messages
     // If provided, engine can use this along with or instead of simple keywords.
-    "regex": "*a"
+    "regex": "/^\d+$/"
   },
 
   // Position on the canvas (relative)
@@ -173,7 +93,6 @@
          <span class="token string">"id"</span><span class="token punctuation">:</span><span class="token string">"&lt;templateMongoId&gt;"</span>
       <span class="token punctuation">}</span>
     <span class="token punctuation">]</span><span class="token punctuation">,</span>
-    <span class="token string">"qrCampaigns"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
     <span class="token string">"ad"</span><span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
     <span class="token string">"regexCaseSensitive"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
     <span class="token string">"isNewFlow"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
