@@ -69,6 +69,5 @@ When this node is executed, the system can pause bot automation and notify a hum
     <span class="token string">"y"</span><span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">297.05743408203125</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-
 </code></pre>
 
