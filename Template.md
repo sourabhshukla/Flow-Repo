@@ -12,8 +12,7 @@
 <li><code>formattedButtons</code> → runtime button configuration (e.g. for dynamic URLs / parameters)</li>
 <li>Currently only <code>text/image/video/document</code> templates are supported.</li>
 </ul>
-<hr>
-<h2 id="full-sample">1. Full Sample</h2>
+<h2 id="json-structure">JSON Structure</h2>
 <p>For reference, here is the full object you gave initially:</p>
 <pre class=" language-jsonc"><code class="prism  language-jsonc">{
   // Node id on the canvas
@@ -73,6 +72,7 @@
   }
 }
 </code></pre>
+<h2 id="clean-json">Clean JSON</h2>
 <pre><code>{
   "id": "1763634895184",
   "type": "masterComponent",
