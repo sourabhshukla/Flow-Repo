@@ -6,7 +6,7 @@
 <h1 id="media-question-node-questionmediamessage">Media Question Node (<code>questionMediaMessage</code>)</h1>
 <p>This node is used to <strong>ask the user for a media response</strong> and store the result in an attribute.</p>
 <ul>
-<li>Validation type is fixed as: <code>attributeFormat: "Media"</code></li>
+<li>Validation type is fixed as: <code>attributeFormat: "Media"</code>.</li>
 <li>The expected media type is controlled by <code>mediaType</code>.</li>
 </ul>
 <p>Supported <code>mediaType</code> values:</p>
@@ -88,7 +88,6 @@
   }
 }
 </code></pre>
-<hr>
 <h2 id="clean-json-examples">Clean JSON Examples</h2>
 <h3 id="mediatype-any">1. <code>mediaType: "Any"</code></h3>
 <pre class=" language-json"><code class="prism  language-json"><span class="token punctuation">{</span>
