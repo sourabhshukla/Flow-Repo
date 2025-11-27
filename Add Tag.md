@@ -9,7 +9,7 @@
 <ul>
 <li>Marking important events in the journey (e.g. <code>zoom_booked</code>)</li>
 <li>Segmenting users (e.g. <code>request callback demo</code>)</li>
-<li>Triggering analytics or downstream workflows based on tags</li>
+<li>Triggering analytics or downstream workflows based on tags.</li>
 </ul>
 <hr>
 <h2 id="json-structure">JSON Structure</h2>
