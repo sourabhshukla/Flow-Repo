@@ -101,7 +101,7 @@
         <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763577888932-questionMediaMessage"</span><span class="token punctuation">,</span>
         <span class="token string">"type"</span><span class="token punctuation">:</span> <span class="token string">"questionMediaMessage"</span><span class="token punctuation">,</span>
         <span class="token string">"data"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-          <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"Enter link"</span><span class="token punctuation">,</span>
+          <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"Upload File"</span><span class="token punctuation">,</span>
           <span class="token string">"attribute"</span><span class="token punctuation">:</span> <span class="token string">"Link"</span><span class="token punctuation">,</span>
           <span class="token string">"attributeNumberOfAttempt"</span><span class="token punctuation">:</span> <span class="token string">"1"</span><span class="token punctuation">,</span>
           <span class="token string">"attributeFormatValue"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
@@ -137,7 +137,7 @@
         <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763577888932-questionMediaMessage"</span><span class="token punctuation">,</span>
         <span class="token string">"type"</span><span class="token punctuation">:</span> <span class="token string">"questionMediaMessage"</span><span class="token punctuation">,</span>
         <span class="token string">"data"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-          <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"Enter link"</span><span class="token punctuation">,</span>
+          <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"Upload Image"</span><span class="token punctuation">,</span>
           <span class="token string">"attribute"</span><span class="token punctuation">:</span> <span class="token string">"ImageLink"</span><span class="token punctuation">,</span>
           <span class="token string">"attributeNumberOfAttempt"</span><span class="token punctuation">:</span> <span class="token string">"1"</span><span class="token punctuation">,</span>
           <span class="token string">"attributeFormatValue"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
@@ -173,7 +173,7 @@
         <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763577888932-questionMediaMessage"</span><span class="token punctuation">,</span>
         <span class="token string">"type"</span><span class="token punctuation">:</span> <span class="token string">"questionMediaMessage"</span><span class="token punctuation">,</span>
         <span class="token string">"data"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-          <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"Enter link"</span><span class="token punctuation">,</span>
+          <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"Upload Video"</span><span class="token punctuation">,</span>
           <span class="token string">"attribute"</span><span class="token punctuation">:</span> <span class="token string">"VideoLink"</span><span class="token punctuation">,</span>
           <span class="token string">"attributeNumberOfAttempt"</span><span class="token punctuation">:</span> <span class="token string">"1"</span><span class="token punctuation">,</span>
           <span class="token string">"attributeFormatValue"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
@@ -209,7 +209,7 @@
         <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763577888932-questionMediaMessage"</span><span class="token punctuation">,</span>
         <span class="token string">"type"</span><span class="token punctuation">:</span> <span class="token string">"questionMediaMessage"</span><span class="token punctuation">,</span>
         <span class="token string">"data"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-          <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"Enter link"</span><span class="token punctuation">,</span>
+          <span class="token string">"text"</span><span class="token punctuation">:</span> <span class="token string">"Upload Document"</span><span class="token punctuation">,</span>
           <span class="token string">"attribute"</span><span class="token punctuation">:</span> <span class="token string">"DocLink"</span><span class="token punctuation">,</span>
           <span class="token string">"attributeNumberOfAttempt"</span><span class="token punctuation">:</span> <span class="token string">"1"</span><span class="token punctuation">,</span>
           <span class="token string">"attributeFormatValue"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
