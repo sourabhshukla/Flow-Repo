@@ -13,7 +13,7 @@
 <li>A <strong>buttonTitle</strong> shown as the main CTA (e.g. “View Items”)</li>
 </ul>
 <hr>
-<h2 id="json-structure-with-comments">JSON Structure (with comments)</h2>
+<h2 id="json-structure">JSON Structure</h2>
 <pre class=" language-jsonc"><code class="prism  language-jsonc">{
   // Unique identifier for this node on the canvas
   "id": "1763580244198",
@@ -112,7 +112,7 @@
 }
 </code></pre>
 <hr>
-<h2 id="clean-json-no-comments">Clean JSON (no comments)</h2>
+<h2 id="clean-json">Clean JSON</h2>
 <pre class=" language-json"><code class="prism  language-json"><span class="token punctuation">{</span>
   <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763580244198"</span><span class="token punctuation">,</span>
   <span class="token string">"type"</span><span class="token punctuation">:</span> <span class="token string">"masterComponent"</span><span class="token punctuation">,</span>
