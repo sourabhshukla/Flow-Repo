@@ -89,7 +89,7 @@
 }
 </code></pre>
 <hr>
-<h2 id="clean-json-examples-no-comments">Clean JSON Examples (no comments)</h2>
+<h2 id="clean-json-examples">Clean JSON Examples</h2>
 <h3 id="mediatype-any">1. <code>mediaType: "Any"</code></h3>
 <pre class=" language-json"><code class="prism  language-json"><span class="token punctuation">{</span>
   <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763577888932"</span><span class="token punctuation">,</span>
