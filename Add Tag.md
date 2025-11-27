@@ -11,7 +11,6 @@
 <li>Segmenting users (e.g. <code>request callback demo</code>)</li>
 <li>Triggering analytics or downstream workflows based on tags.</li>
 </ul>
-<hr>
 <h2 id="json-structure">JSON Structure</h2>
 <pre class=" language-jsonc"><code class="prism  language-jsonc">{
   // Unique identifier for this node on the canvas
