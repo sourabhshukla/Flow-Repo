@@ -15,7 +15,7 @@
 </ul>
 <hr>
 <h2 id="curl-request">1. cURL Request</h2>
-<pre class=" language-bash"><code class="prism  language-bash">curl --location <span class="token string">'https://apis.aisensy.com/project-apis/v1/project/flow/create'</span> \
+<pre class=" language-bash"><code class="prism  language-bash">curl --location <span class="token string">'https://apis.aisensy.com/project-apis/v1/project/68ac67dc9a630835f9ac7601/flow/create'</span> \
 --header <span class="token string">'Content-Type: application/json'</span> \
 --header <span class="token string">'X-AiSensy-Project-API-Pwd: &lt;AUTH_TOKEN&gt;'</span> \
 --data <span class="token string">'{
