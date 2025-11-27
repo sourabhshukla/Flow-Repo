@@ -8,7 +8,6 @@
 <blockquote>
 <p><strong>Limit:</strong> A flow can contain <strong>maximum 5 API Request nodes</strong>.</p>
 </blockquote>
-<hr>
 <h2 id="json-structure">JSON Structure</h2>
 <pre class=" language-jsonc"><code class="prism  language-jsonc">{
   // Unique identifier for this node on the canvas
