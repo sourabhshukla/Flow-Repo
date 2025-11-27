@@ -85,7 +85,6 @@
   }
 }
 </code></pre>
-<hr>
 <h2 id="clean-json">Clean JSON</h2>
 <pre class=" language-json"><code class="prism  language-json"><span class="token punctuation">{</span>
   <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763573738905"</span><span class="token punctuation">,</span>
