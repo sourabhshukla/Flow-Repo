@@ -11,7 +11,6 @@
 <li><code>body</code>: Main message text</li>
 <li><code>footer</code>: Optional footer text</li>
 </ul>
-<hr>
 <h2 id="json-structure">JSON Structure</h2>
 <pre class=" language-jsonc"><code class="prism  language-jsonc">{
   // Unique identifier for this node on the canvas
@@ -54,7 +53,6 @@
   }
 }
 </code></pre>
-<hr>
 <h2 id="clean-json">Clean JSON</h2>
 <pre class=" language-json"><code class="prism  language-json"><span class="token punctuation">{</span>
   <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763580464194"</span><span class="token punctuation">,</span>
