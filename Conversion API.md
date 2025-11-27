@@ -11,7 +11,6 @@
 <li><strong>Conversion type</strong> (Purchase / Lead)</li>
 <li><strong>Currency code</strong> (ISO 4217 list)</li>
 </ul>
-<hr>
 <h2 id="json-structure">JSON Structure</h2>
 <pre class=" language-jsonc"><code class="prism  language-jsonc">{
   // Unique identifier for this node on the canvas
