@@ -16,7 +16,7 @@
 <h2 id="curl-request">1. cURL Request</h2>
 <pre class=" language-bash"><code class="prism  language-bash">curl --location <span class="token string">'https://apis.aisensy.com/project-apis/v1/project/688b12c568e19f0c0d256a82/flow/create'</span> \
 --header <span class="token string">'Content-Type: application/json'</span> \
---header <span class="token string">'X-AiSensy-Project-API-Pwd: &lt;AUTH_TOKEN&gt;'</span> \
+--header <span class="token string">'X-AiSensy-Project-API-Pwd: &lt;YOUR_KEY&gt;'</span> \
 --data <span class="token string">'{
   "flowName": "New Flow"
 }'</span>
@@ -24,7 +24,7 @@
 <h2 id="curl-request-update">2. cURL Request (update)</h2>
 <pre class=" language-bash"><code class="prism  language-bash">curl --location <span class="token string">'https://apis.aisensy.com/project-apis/v1/project/688b12c568e19f0c0d256a82/flow/update'</span> \
 --header <span class="token string">'Content-Type: application/json'</span> \
---header <span class="token string">'X-AiSensy-Project-API-Pwd: &lt;AUTH_TOKEN&gt;'</span> \
+--header <span class="token string">'X-AiSensy-Project-API-Pwd: &lt;YOUR_KEY&gt;'</span> \
 --data <span class="token string">'{
   "flowId": "68ff9d6da67048001e402b3b",
   "flow": {
