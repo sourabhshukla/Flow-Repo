@@ -11,7 +11,6 @@
 <li>Attributes to store latitude and longitude</li>
 <li>Timeout behavior in minutes</li>
 </ul>
-<hr>
 <h2 id="json-structure">JSON Structure</h2>
 <pre class=" language-jsonc"><code class="prism  language-jsonc">{
   // Unique identifier for this node on the canvas
