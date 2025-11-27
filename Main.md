@@ -8,7 +8,9 @@
 <p>It sends:</p>
 <ul>
 <li><code>flowId</code> → the specific flow being updated.</li>
-<li><code>flow</code> → full React Flow–style graph (<code>nodes</code> + <code>edges</code>).</li>
+<li><code>flow</code> → Object containing<code>nodes</code> and <code>edges</code>.</li>
+<li><code>nodes</code> → Array containing all nodes in flow.</li>
+<li><code>edges</code> → Array containing all edges in flow.</li>
 <li><code>flowName</code> → human-readable name of the flow.</li>
 <li><code>status</code> → whether the flow is active/enabled.</li>
 </ul>
