@@ -18,7 +18,6 @@
 <li><code>Audio</code></li>
 </ul>
 <p>Other behavior (attempts, delay, timeout) works like the normal question node.</p>
-<hr>
 <h2 id="generic-media-question-node">Generic Media Question Node</h2>
 <pre class=" language-jsonc"><code class="prism  language-jsonc">{
   // Unique identifier for this node on the canvas
