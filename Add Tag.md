@@ -13,52 +13,52 @@
 </ul>
 <hr>
 <h2 id="json-structure">JSON Structure</h2>
-<pre class=" language-jsonc"><code class="prism  language-jsonc">{
-  // Unique identifier for this node on the canvas
-  "id": "1763579182272",
+<pre class=" language-json"><code class="prism  language-json"><span class="token punctuation">{</span>
+  <span class="token comment">// Unique identifier for this node on the canvas</span>
+  <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763579182272"</span><span class="token punctuation">,</span>
 
-  // Node type wrapper
-  "type": "masterComponent",
+  <span class="token comment">// Node type wrapper</span>
+  <span class="token string">"type"</span><span class="token punctuation">:</span> <span class="token string">"masterComponent"</span><span class="token punctuation">,</span>
 
-  "data": {
-    // Whether this node is draggable in the editor UI
-    "isDrag": true,
+  <span class="token string">"data"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Whether this node is draggable in the editor UI</span>
+    <span class="token string">"isDrag"</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
 
-    // Logical ID of the component (usually same as node id)
-    "id": "1763579182272",
+    <span class="token comment">// Logical ID of the component (usually same as node id)</span>
+    <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763579182272"</span><span class="token punctuation">,</span>
 
-    // Content blocks inside this node
-    "content": [
-      {
-        // Unique ID for this add-tag block
-        "id": "1763579182272-addTag",
+    <span class="token comment">// Content blocks inside this node</span>
+    <span class="token string">"content"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        <span class="token comment">// Unique ID for this add-tag block</span>
+        <span class="token string">"id"</span><span class="token punctuation">:</span> <span class="token string">"1763579182272-addTag"</span><span class="token punctuation">,</span>
 
-        // Node type for adding tags
-        "type": "addTag",
+        <span class="token comment">// Node type for adding tags</span>
+        <span class="token string">"type"</span><span class="token punctuation">:</span> <span class="token string">"addTag"</span><span class="token punctuation">,</span>
 
-        "data": {
-          // Array of tag objects to be applied.
-          // Typically these are pre-configured tags from your system.
-          "tags": [
-            {
-              // Name of tag
-              "tagName": "My tag 1"
-            },
-            {
-              "tagName": "My tag 2"
-            }
-          ]
-        }
-      }
-    ]
-  },
+        <span class="token string">"data"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+          <span class="token comment">// Array of tag objects to be applied.</span>
+          <span class="token comment">// Typically these are pre-configured tags from your system.</span>
+          <span class="token string">"tags"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+              <span class="token comment">// Name of tag</span>
+              <span class="token string">"tagName"</span><span class="token punctuation">:</span> <span class="token string">"My tag 1"</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span>
+              <span class="token string">"tagName"</span><span class="token punctuation">:</span> <span class="token string">"My tag 2"</span>
+            <span class="token punctuation">}</span>
+          <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
 
-  // Position of this node on the canvas
-  "position": {
-    "x": -1025.197908140377,
-    "y": -247.49098273273367
-  }
-}
+  <span class="token comment">// Position of this node on the canvas</span>
+  <span class="token string">"position"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token string">"x"</span><span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">1025.197908140377</span><span class="token punctuation">,</span>
+    <span class="token string">"y"</span><span class="token punctuation">:</span> <span class="token operator">-</span><span class="token number">247.49098273273367</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
 </code></pre>
 <hr>
 <h2 id="clean-json">Clean JSON</h2>
