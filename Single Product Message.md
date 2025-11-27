@@ -4,7 +4,7 @@
 ---
 
 <h1 id="single-product-message-node-singleproductmessage">Single Product Message Node (<code>singleProductMessage</code>)</h1>
-<p>This node is used to send a <strong>single product message from a Meta (Facebook/WhatsApp) catalog</strong>.</p>
+<p>This node is used to send a <strong>single product message from a Meta catalog</strong>.</p>
 <p>It contains:</p>
 <ul>
 <li>A <strong>product object</strong> (coming from the Meta catalog)</li>
