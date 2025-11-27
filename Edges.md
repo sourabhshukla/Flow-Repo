@@ -11,7 +11,6 @@
 <li><code>sourceHandle</code></li>
 <li><code>target</code></li>
 </ul>
-<hr>
 <h2 id="generic-edge">1. Generic Edge</h2>
 <pre class=" language-jsonc"><code class="prism  language-jsonc">{
   // ID of the source node (or special keyword "keyword")
