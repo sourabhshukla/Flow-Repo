@@ -12,7 +12,6 @@
 <li><code>flowName</code> → human-readable name of the flow.</li>
 <li><code>status</code> → whether the flow is active/enabled.</li>
 </ul>
-<hr>
 <h2 id="curl-request">1. cURL Request</h2>
 <pre class=" language-bash"><code class="prism  language-bash">curl --location <span class="token string">'https://apis.aisensy.com/project-apis/v1/project/688b12c568e19f0c0d256a82/flow/create'</span> \
 --header <span class="token string">'Content-Type: application/json'</span> \
