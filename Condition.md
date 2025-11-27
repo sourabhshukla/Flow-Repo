@@ -58,7 +58,6 @@
 <p><code>attributeOne</code> <strong>must be in:</strong></p>
 <p>Examples:<br>
 <code>"01-15-2025"</code>, <code>"12-31-2025"</code></p>
-<hr>
 <h2 id="updated-generic-condition-node-with-comments">Updated Generic Condition Node (with comments)</h2>
 <pre class=" language-jsonc"><code class="prism  language-jsonc">{
   "id": "1763574255070",
@@ -105,7 +104,6 @@
   }
 }
 </code></pre>
-<hr>
 <h2 id="json-samples">JSON samples</h2>
 <h3 id="equal">Equal</h3>
 <pre class=" language-json"><code class="prism  language-json"><span class="token punctuation">{</span>
