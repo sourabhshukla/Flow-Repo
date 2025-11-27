@@ -7,11 +7,10 @@
 <p>This API is used to <strong>create or update a flow</strong> for a given project.</p>
 <p>It sends:</p>
 <ul>
-<li><code>projectId</code> → the project to which the flow belongs</li>
-<li><code>flowId</code> → the specific flow being updated</li>
-<li><code>flow</code> → full React Flow–style graph (<code>nodes</code> + <code>edges</code>)</li>
-<li><code>flowName</code> → human-readable name of the flow</li>
-<li><code>status</code> → whether the flow is active/enabled</li>
+<li><code>flowId</code> → the specific flow being updated.</li>
+<li><code>flow</code> → full React Flow–style graph (<code>nodes</code> + <code>edges</code>).</li>
+<li><code>flowName</code> → human-readable name of the flow.</li>
+<li><code>status</code> → whether the flow is active/enabled.</li>
 </ul>
 <hr>
 <h2 id="curl-request">1. cURL Request</h2>
